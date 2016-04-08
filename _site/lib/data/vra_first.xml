@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<vra xmlns="http://www.vraweb.org/vracore4.htm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vraweb.org/vracore4.htm http://cluster-schemas.uni-hd.de/vra-strictCluster.xsd">
+    <work id="w_Nuxeo_ARK_01">
+        <agentSet>
+            <display>Miranda Maher.</display>
+            <agent>
+                <name type="personal" vocab="LCNAF" refid="http://id.loc.gov/authorities/names/nr94039698">Maher, Miranda</name>
+                <role>artist</role>
+            </agent>
+            <agent>
+                <name type="corporate" vocab="LCNAF" refid="http://id.loc.gov/authorities/names/no98086571">Horse in a Storm Press</name>
+                <role>publisher</role>
+            </agent>
+        </agentSet>
+        <dateSet>
+            <display>2006</display>
+            <date type="publication">
+                <earliestDate>
+                    <date>2006</date>
+                </earliestDate>
+                <latestDate>
+                    <date>2006</date>
+                </latestDate>
+            </date>
+        </dateSet>
+        <descriptionSet>
+            <display>Artist's book listing all open and declared armed hostile conflicts that have taken place between the year 1 and the year 2006.;Issued in clear vinyl pocket.;Accordion folded, printed on cream colored paper with a gilt fleur-des-lys-pattern. Text printed in a tiny font down two columns with a black perpendicular line running the length between the columns.</display>
+            <description>
+                <text>Artist's book listing all open and declared armed hostile conflicts that have taken place between the year 1 and the year 2006.;Issued in clear vinyl pocket.;Accordion folded, printed on cream colored paper with a gilt fleur-des-lys-pattern. Text printed in a tiny font down two columns with a black perpendicular line running the length between the columns.</text>
+            </description>
+        </descriptionSet>
+        <locationSet>
+            <display>geographic: Brooklyn, N.Y.; corporate: UCI Libraries. Department of Special Collections and Archives</display>
+            <location type="publication">
+                <name type="geographic" vocab="delete column" refid="delete column">Brooklyn, N.Y.</name>
+                <name type="geographic"/>
+            </location>
+            <location type="repository">
+                <name type="corporate" vocab="LCNAF" refid="http://id.loc.gov/authorities/names/n79092133">UCI Libraries. Department of Special Collections and Archives</name>
+                <name type="geographic"/>
+            </location>
+        </locationSet>
+        <materialSet>
+            <display>derive from free text in MARC 5xx or 65X</display>
+            <material vocab="AAT" refid="uri">vocab term</material>
+        </materialSet>
+        <measurementsSet>
+            <display>21 cm x 318 cm (folded to 21 cm x 14 cm)</display>
+            <measurements type="height" unit="cm">21</measurements>
+            <measurements type="width" unit="cm">318</measurements>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageIs" relids="i_ad612c58-6e56-4cbc-9910-417c3b1be341" pref="true"/>
+        </relationSet>
+        <rightsSet>
+            <display>copyrighted</display>
+            <rights>
+                <text>copyrighted</text>
+            </rights>
+        </rightsSet>
+        <stateEditionSet>
+            <display>3rd edition</display>
+            <stateEdition/>
+        </stateEditionSet>
+        <subjectSet>
+            <display>Artists' books--New York (State)--Brooklyn (New York)--Specimens.; Battles in art.; Peace in art.; War in art.</display>
+            <subject>
+                <term type="descriptiveTopic" vocab="LCSH">Artists' books--New York (State)--Brooklyn (New York)--Specimens.</term>
+            </subject>
+            <subject>
+                <term type="descriptiveTopic" vocab="LCSH" refid="http://id.loc.gov/authorities/subjects/sh85012435">Battles in art.</term>
+            </subject>
+            <subject>
+                <term type="descriptiveTopic" vocab="LCSH" refid="http://id.loc.gov/authorities/subjects/sh85098948">Peace in art.</term>
+            </subject>
+            <subject>
+                <term type="descriptiveTopic" vocab="LCSH" refid="http://id.loc.gov/authorities/subjects/sh85145181">War in art.</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <display>Artists' books--New York (State)--21st century--women authors.--rbgenr.</display>
+            <technique/>
+        </techniqueSet>
+        <textrefSet>
+            <display>OCLC Work ID http://worldcat.org/entity/work/id/9817872</display>
+            <textref/>
+        </textrefSet>
+        <titleSet>
+            <display>After reasonable research :years with no acts of "open and declared armed hostile conflict" are indicated with a perpendicular line ... perhaps they were periods of peace</display>
+            <title pref="true" type="creator">After reasonable research :years with no acts of "open and declared armed hostile conflict" are indicated with a perpendicular line ... perhaps they were periods of peace</title>
+            <title pref="false"/>
+        </titleSet>
+        <worktypeSet>
+            <display>artists' books (books)</display>
+            <worktype vocab="http://vocab.getty.edu/aat/" refid="http://vocab.getty.edu/aat/300123016">artists' books (books)</worktype>
+        </worktypeSet>
+    </work>
+    <image id="i_ad612c58-6e56-4cbc-9910-417c3b1be341">
+        <locationSet>
+            <location type="repository">
+                <name>https://registry.cdlib.org/api/v1/collection/26147</name>
+                <refid type="accession"/>
+            </location>
+        </locationSet>
+        <relationSet>
+            <relation type="imageOf" relids="w_Nuxeo_ARK_01"/>
+        </relationSet>
+        <subjectSet>
+            <subject>
+                <term type="descriptiveTopic" vocab="LCSH">Artists' books--New York (State)--Brooklyn (New York)--Specimens.</term>
+            </subject>
+            <subject>
+                <term type="descriptiveTopic" vocab="LCSH" refid="http://id.loc.gov/authorities/subjects/sh85012435">Battles in art.</term>
+            </subject>
+            <subject>
+                <term type="descriptiveTopic" vocab="LCSH" refid="http://id.loc.gov/authorities/subjects/sh85098948">Peace in art.</term>
+            </subject>
+        </subjectSet>
+        <techniqueSet>
+            <technique vocab="AAT" refid="300237903">digital imaging</technique>
+        </techniqueSet>
+        <worktypeSet>
+            <worktype vocab="AAT" refid="300215302">digital images</worktype>
+        </worktypeSet>
+    </image>
+  </vra>

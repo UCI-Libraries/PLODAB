@@ -1,0 +1,78 @@
+body {
+  font: 10px sans-serif;
+}
+
+timeline-chart {
+  /*margin-left: 150px;*/
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.d3-tip {
+  width: 270px;
+  height: auto;
+  /*overflow: scroll;*/
+  line-height: 1;
+  font-weight: bold;
+  padding: 1px;
+  background: rgba(0, 0, 0, 0.8);
+  color: "#fff";
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.d3-tip-image {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  float: left;
+}
+
+.tip-content {
+  width: 240px;
+  padding: 10px;
+}
+
+.tip-content span {
+  float: right;
+  padding-top: 10px;
+  line-height: 1.4;
+  width: 130px;
+  height: auto;
+  font-weight: 200;
+  font-size: 1.1em;
+  overflow: visible;
+  padding-left: 5px;
+}

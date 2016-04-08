@@ -1,0 +1,17 @@
+.btn:hover {
+  /*background-color: #f0f0f0;*/
+}
+
+.btn {
+  border: none;
+  border-bottom: : 1px solid white;
+  opacity: 0.75;
+}
+
+.btn-select {
+  opacity: 1;
+}
+
+#text-select {
+  background-color: red;
+}

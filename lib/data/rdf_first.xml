@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rdf:RDF xmlns:library="http://purl.org/library/" xmlns:void="http://rdfs.org/ns/void#" xmlns:vra="http://purl.org/vra/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <rdf:Description rdf:about="#w_Nuxeo_ARK_01">
+        <rdf:type rdf:resource="http://purl.org/vra/CreativeWork"/>
+        <vra:creator>
+            <rdf:Description rdf:about="http://id.loc.gov/authorities/names/nr94039698">
+                <rdf:type rdf:resource="http://purl.org/vra/Agent"/>
+                <rdf:type rdf:resource="http://purl.org/vra/Person"/>
+                <vra:name>Maher, Miranda</vra:name>
+            </rdf:Description>
+        </vra:creator>
+        <vra:creator>
+            <rdf:Description rdf:about="http://id.loc.gov/authorities/names/no98086571">
+                <rdf:type rdf:resource="http://purl.org/vra/Agent"/>
+                <rdf:type rdf:resource="http://purl.org/vra/Organization"/>
+                <vra:name>Horse in a Storm Press</vra:name>
+            </rdf:Description>
+        </vra:creator>
+        <vra:dateCreated>2006</vra:dateCreated>
+        <vra:wasPublished>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/vra/Event"/>
+                <vra:name>Publication</vra:name>
+                <vra:startDate>2006</vra:startDate>
+                <vra:endDate>2006</vra:endDate>
+            </rdf:Description>
+        </vra:wasPublished>
+        <vra:description>Artist's book listing all open and declared armed hostile conflicts that have taken place between the year 1 and the year 2006.;Issued in clear vinyl pocket.;Accordion folded, printed on cream colored paper with a gilt fleur-des-lys-pattern. Text printed in a tiny font down two columns with a black perpendicular line running the length between the columns.</vra:description>
+        <vra:placeOfPublication>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/vra/Place"/>
+                <vra:containedIn>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/vra/Place"/>
+                        <vra:name>Brooklyn, N.Y.</vra:name>
+                    </rdf:Description>
+                </vra:containedIn>
+                <vra:containedIn>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/vra/Place"/>
+                        <vra:name/>
+                    </rdf:Description>
+                </vra:containedIn>
+                <vra:name>geographic: Brooklyn, N.Y.; corporate: UCI Libraries. Department of Special Collections and Archives</vra:name>
+                <vra:description/>
+            </rdf:Description>
+        </vra:placeOfPublication>
+        <vra:placeOfRepository>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/vra/Place"/>
+                <rdf:type rdf:resource="http://purl.org/vra/CivicStructure"/>
+                <vra:containedIn>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/vra/Place"/>
+                        <vra:name>UCI Libraries. Department of Special Collections and Archives</vra:name>
+                    </rdf:Description>
+                </vra:containedIn>
+                <vra:containedIn>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://purl.org/vra/Place"/>
+                        <vra:name/>
+                    </rdf:Description>
+                </vra:containedIn>
+                <vra:name>geographic: Brooklyn, N.Y.; corporate: UCI Libraries. Department of Special Collections and Archives</vra:name>
+                <vra:description/>
+            </rdf:Description>
+        </vra:placeOfRepository>
+        <vra:material>
+            <rdf:Description rdf:about="http://vocab.getty.edu/aat/uri">
+                <rdf:type rdf:resource="http://purl.org/vra/Material"/>
+                <vra:name>vocab term</vra:name>
+            </rdf:Description>
+        </vra:material>
+        <vra:height>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/vra/QuantitativeValue"/>
+                <vra:value>21</vra:value>
+                <vra:unitCode>CMT</vra:unitCode>
+            </rdf:Description>
+        </vra:height>
+        <vra:width>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/vra/QuantitativeValue"/>
+                <vra:value>318</vra:value>
+                <vra:unitCode>CMT</vra:unitCode>
+            </rdf:Description>
+        </vra:width>
+        <dcterms:rights>
+            <rdf:Description rdf:about="http://purl.org/rights/">copyrighted</rdf:Description>
+        </dcterms:rights>
+        <vra:copyrightHolder>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/vra/Agent"/>
+                <vra:name/>
+            </rdf:Description>
+        </vra:copyrightHolder>
+        <vra:about>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/vra/Thing"/>
+                <vra:name>Artists' books--New York (State)--Brooklyn (New York)--Specimens.</vra:name>
+            </rdf:Description>
+        </vra:about>
+        <vra:about>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/vra/Thing"/>
+                <vra:name>Battles in art.</vra:name>
+            </rdf:Description>
+        </vra:about>
+        <vra:about>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/vra/Thing"/>
+                <vra:name>Peace in art.</vra:name>
+            </rdf:Description>
+        </vra:about>
+        <vra:about>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/vra/Thing"/>
+                <vra:name>War in art.</vra:name>
+            </rdf:Description>
+        </vra:about>
+        <vra:hasTechnique>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://purl.org/vra/Intangible"/>
+                <rdf:type rdf:resource="http://purl.org/vra/Technique"/>
+                <vra:name>Artists' books--New York (State)--21st century--women authors.--rbgenr.</vra:name>
+            </rdf:Description>
+        </vra:hasTechnique>
+        <vra:name>After reasonable research :years with no acts of "open and declared armed hostile conflict" are indicated with a perpendicular line ... perhaps they were periods of peace</vra:name>
+        <vra:name/>
+        <vra:hasImage>
+            <rdf:Description rdf:about="#i4143a4c0-2be8-4512-8148-284099373a80">
+                <rdf:type rdf:resource="http://purl.org/vra/CreativeWork"/>
+            </rdf:Description>
+        </vra:hasImage>
+    </rdf:Description>
+  </rdf:RDF>

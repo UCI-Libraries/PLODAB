@@ -1,0 +1,72 @@
+<http://njh.me/#w_Nuxeo_ARK_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/CreativeWork> .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/creator> <http://id.loc.gov/authorities/names/nr94039698> .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/creator> <http://id.loc.gov/authorities/names/no98086571> .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/dateCreated> "2006" .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/wasPublished> _:genid1 .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/description> "Artist's book listing all open and declared armed hostile conflicts that have taken place between the year 1 and the year 2006.;Issued in clear vinyl pocket.;Accordion folded, printed on cream colored paper with a gilt fleur-des-lys-pattern. Text printed in a tiny font down two columns with a black perpendicular line running the length between the columns." .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/placeOfPublication> _:genid2 .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/placeOfRepository> _:genid5 .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/material> <http://vocab.getty.edu/aat/uri> .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/height> _:genid8 .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/width> _:genid9 .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/dc/terms/rights> <http://purl.org/rights/> .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/copyrightHolder> _:genid10 .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/about> _:genid11 .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/about> _:genid12 .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/about> _:genid13 .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/about> _:genid14 .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/hasTechnique> _:genid15 .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/name> "After reasonable research :years with no acts of \"open and declared armed hostile conflict\" are indicated with a perpendicular line ... perhaps they were periods of peace" .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/name> "" .
+<http://njh.me/#w_Nuxeo_ARK_01> <http://purl.org/vra/hasImage> <http://njh.me/#i4143a4c0-2be8-4512-8148-284099373a80> .
+<http://id.loc.gov/authorities/names/nr94039698> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Agent> .
+<http://id.loc.gov/authorities/names/nr94039698> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Person> .
+<http://id.loc.gov/authorities/names/nr94039698> <http://purl.org/vra/name> "Maher, Miranda" .
+<http://id.loc.gov/authorities/names/no98086571> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Agent> .
+<http://id.loc.gov/authorities/names/no98086571> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Organization> .
+<http://id.loc.gov/authorities/names/no98086571> <http://purl.org/vra/name> "Horse in a Storm Press" .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Event> .
+_:genid1 <http://purl.org/vra/name> "Publication" .
+_:genid1 <http://purl.org/vra/startDate> "2006" .
+_:genid1 <http://purl.org/vra/endDate> "2006" .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Place> .
+_:genid2 <http://purl.org/vra/containedIn> _:genid3 .
+_:genid2 <http://purl.org/vra/containedIn> _:genid4 .
+_:genid2 <http://purl.org/vra/name> "geographic: Brooklyn, N.Y.; corporate: UCI Libraries. Department of Special Collections and Archives" .
+_:genid2 <http://purl.org/vra/description> "" .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Place> .
+_:genid3 <http://purl.org/vra/name> "Brooklyn, N.Y." .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Place> .
+_:genid4 <http://purl.org/vra/name> "" .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Place> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/CivicStructure> .
+_:genid5 <http://purl.org/vra/containedIn> _:genid6 .
+_:genid5 <http://purl.org/vra/containedIn> _:genid7 .
+_:genid5 <http://purl.org/vra/name> "geographic: Brooklyn, N.Y.; corporate: UCI Libraries. Department of Special Collections and Archives" .
+_:genid5 <http://purl.org/vra/description> "" .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Place> .
+_:genid6 <http://purl.org/vra/name> "UCI Libraries. Department of Special Collections and Archives" .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Place> .
+_:genid7 <http://purl.org/vra/name> "" .
+<http://vocab.getty.edu/aat/uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Material> .
+<http://vocab.getty.edu/aat/uri> <http://purl.org/vra/name> "vocab term" .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/QuantitativeValue> .
+_:genid8 <http://purl.org/vra/value> "21" .
+_:genid8 <http://purl.org/vra/unitCode> "CMT" .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/QuantitativeValue> .
+_:genid9 <http://purl.org/vra/value> "318" .
+_:genid9 <http://purl.org/vra/unitCode> "CMT" .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Agent> .
+_:genid10 <http://purl.org/vra/name> "" .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Thing> .
+_:genid11 <http://purl.org/vra/name> "Artists' books--New York (State)--Brooklyn (New York)--Specimens." .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Thing> .
+_:genid12 <http://purl.org/vra/name> "Battles in art." .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Thing> .
+_:genid13 <http://purl.org/vra/name> "Peace in art." .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Thing> .
+_:genid14 <http://purl.org/vra/name> "War in art." .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Intangible> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/Technique> .
+_:genid15 <http://purl.org/vra/name> "Artists' books--New York (State)--21st century--women authors.--rbgenr." .
+<http://njh.me/#i4143a4c0-2be8-4512-8148-284099373a80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vra/CreativeWork> .

@@ -1,0 +1,15 @@
+.btn:hover {
+  /*background-color: #f0f0f0;*/
+}
+
+.btn {
+  border: 1px solid white;
+}
+
+#text-select {
+  background-color: red;
+}
+
+.selected {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "linked-artists-books",
+  "version": "1.0.0",
+  "description": "Data visualization tool created for the UCI Linked Open Data for Artist Books pilot # Linked-Artists-Books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.oit.uci.edu/clwoods/Linked-Artists-Books.git"
+  },
+  "author": "Claire Woods",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "d3": "3.5.14",
+    "rdflib": "^0.5.0"
+  },
+  "devDependencies": {
+    "rdf-parser-rdfxml": "^0.3.1"
+  }
+}

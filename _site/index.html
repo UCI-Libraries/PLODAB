@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html  lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Linked Artist Books</title>
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="lib/css/reset.css">
+    <link rel="stylesheet" href="lib/css/chart.css">
+    <link rel="stylesheet" href="lib/css/nav.css">
+    <link rel="stylesheet" href="lib/css/timeline.css">
+    <link rel="stylesheet" href="lib/css/tree.css">
+
+    <!-- <script src="/node_modules/angular/angular.min.js"></script> -->
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script> -->
+
+
+  </head>
+  <body>
+    <div ng-app="plodab" id="container" class="container">
+      <div ng-controller="chartctrl" id="main" role="main">
+
+        <button  ng-click="updateSubjects($event)" class="btn btn-primary-outline btn-lg" ng-repeat="b in topicButtons" value={{b.name}}>{{b.display}}</button>
+        <bubble-chart data="bubbleChartData"></bubble-chart>
+
+        <timeline-chart data="timelineData"></timeline-chart>
+        <tree-chart data="treeData"></tree-chart>
+
+      </div>
+
+    </div>
+
+    </div> <!--! end of #container -->
+
+    <script src="//code.angularjs.org/1.1.1/angular.js"></script>
+
+    <script type="text/javascript" src="lib/javascripts/resources/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="lib/javascripts/resources/d3.js"></script>
+
+    <script type="text/javascript" src="lib/data/chart_dummy_data.js"></script>
+
+    <script type="text/javascript" src="lib/javascripts/charts/bubble_chart.js"></script>
+    <script type="text/javascript" src="lib/javascripts/charts/timeline/timeline.js"></script>
+    <script type="text/javascript" src="lib/javascripts/charts/tree.js"></script>
+    <script type="text/javascript" src="lib/javascripts/charts/timeline/d3-tip/index.js"></script>
+
+    <script type="text/javascript" src="lib/javascripts/angular/linked_books.js"></script>
+
+  </body>
+</html>
