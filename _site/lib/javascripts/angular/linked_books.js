@@ -1,7 +1,7 @@
 (function() {
 
   angular.module('plodab', [])
-    .controller('chartctrl', ['$scope', function ($scope) {
+    .controller('chartctrl', ['$scope', 'MyService', 'MyOtherService', function ($scope, MyService, MyOtherService) {
       init();
 
       function init() {
@@ -11,6 +11,8 @@
           {name: "techniques", display: "Techniques"},
           {name: "place_of_publication", display: "Place of Publication"}
         ];
+
+        MyService.sayHello();
 
         $scope.selectedTopics = ["subjects"];
         setChartData();
