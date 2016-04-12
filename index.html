@@ -28,8 +28,8 @@
     <div ng-app="plodab" id="container" class="container">
       <div ng-controller="chartctrl" id="main" role="main">
 
-        <button  ng-click="updateSubjects($event)" class="btn btn-primary-outline btn-lg" ng-repeat="b in topicButtons" style="background-color:{{b.color}}";" value={{b.name}}>{{b.display}}</button>
-        <bubble-chart data="bubbleChartData"></bubble-chart>
+        <button ng-click="updateSubjects($event)" class="btn btn-primary-outline btn-lg" ng-repeat="b in topicButtons" style="background-color:{{b.color}}";" value={{b.name}}>{{b.display}}</button>
+        <bubble-chart ng-if="dataHasLoaded" bubble-data="bubbleChartData"></bubble-chart>
 
         <timeline-chart data="timelineData"></timeline-chart>
         <tree-chart data="treeData"></tree-chart>
