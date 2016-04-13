@@ -1,7 +1,7 @@
 (function() {
 
   angular.module('plodab', [])
-    .controller('chartctrl', ['$scope', function ($scope) {
+    .controller('chartctrl', ['$scope', 'MyService', 'MyOtherService', function ($scope, MyService, MyOtherService) {
       init();
 
       function init() {
@@ -15,7 +15,7 @@
         $scope.selectedTopics = ["subjects"];
         setChartData();
 
-        $scope.timelineData = dataSets.timeline;
+        $scope.timelineData = [];
 
         $scope.treeData = dataSets.artifacts[0];
       }

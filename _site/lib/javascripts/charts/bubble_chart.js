@@ -403,7 +403,7 @@ var Bubbles;
 
     updateBubbleFill = function(d) {
       var topic = d.topic.toLowerCase().replace(/\s/g, '_');
-      d.color = dataSets.colors[topic];
+      d.color = plodabColors[topic];
       var saturated = getSaturatedColor(d3.rgb(d.color).hsl());
       return d.selected ? saturated : d.color;
     };

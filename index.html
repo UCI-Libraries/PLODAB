@@ -28,11 +28,18 @@
     <div ng-app="plodab" id="container" class="container">
       <div ng-controller="chartctrl" id="main" role="main">
 
-        <button  ng-click="updateSubjects($event)" class="btn btn-primary-outline btn-lg" ng-repeat="b in topicButtons" style="background-color:{{b.color}}";" value={{b.name}}>{{b.display}}</button>
-        <bubble-chart data="bubbleChartData"></bubble-chart>
+        <button ng-click="updateSubjects($event)" class="btn btn-primary-outline btn-lg" ng-repeat="b in topicButtons" style="background-color:{{b.color}}";" value={{b.name}}>{{b.display}}</button>
+
+        <bubble-chart ng-click="updateNodes($event)" bubble-data="bubbleChartData"></bubble-chart>
 
         <timeline-chart data="timelineData"></timeline-chart>
+
         <tree-chart data="treeData"></tree-chart>
+
+        <hello-world>
+          <world></world>
+        </hello-world>
+
         <!-- <plodab-tool>
           <tree-chart-container>
             <tree-chart data="treeData"></tree-chart>
@@ -58,8 +65,6 @@
 
     <script type="text/javascript" src="node_modules/rdflib/dist/rdflib.js"></script>
 
-    <script type="text/javascript" src="lib/javascripts/parser.js"></script>
-
     <script type="text/javascript" src="lib/javascripts/resources/d3.js"></script>
 
 
@@ -68,7 +73,12 @@
     <script type="text/javascript" src="lib/javascripts/charts/tree.js"></script>
     <script type="text/javascript" src="lib/javascripts/charts/timeline/d3-tip/index.js"></script>
 
+    <script type="text/javascript" src="lib/javascripts/angular/app.js"></script>
     <script type="text/javascript" src="lib/javascripts/angular/linked_books.js"></script>
+    <script type="text/javascript" src="lib/javascripts/angular/data_service.js"></script>
+    <script type="text/javascript" src="lib/javascripts/angular/timeline_data_service.js"></script>
+    <script type="text/javascript" src="lib/javascripts/angular/bubble_data_service.js"></script>
+
 
   </body>
 </html>
