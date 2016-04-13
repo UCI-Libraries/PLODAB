@@ -12,12 +12,10 @@
           {name: "place_of_publication", display: "Place of Publication"}
         ];
 
-        MyService.sayHello();
-
         $scope.selectedTopics = ["subjects"];
         setChartData();
 
-        $scope.timelineData = dataSets.timeline;
+        $scope.timelineData = [];
 
         $scope.treeData = dataSets.artifacts[0];
       }

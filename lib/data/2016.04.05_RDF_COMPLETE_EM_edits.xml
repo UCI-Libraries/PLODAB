@@ -6435,7 +6435,7 @@
       <vra:about>
          <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85047750">
             <rdf:type rdf:resource="http://purl.org/vra/Thing"/>
-            <vra:name>Feminism and the arts.</vra:name>
+            <vra:name>Feminism and the arts</vra:name>
          </rdf:Description>
       </vra:about>
       <vra:about>
