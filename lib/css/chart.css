@@ -1,5 +1,6 @@
 svg {
-
+  background-color: rgb(238,242,245);
+  /*overflow: hidden;*/
 }
 
 
@@ -10,13 +11,17 @@ body {
   /*margin: 1em auto;*/
 }
 
-rect {
-  /*stroke: #6081a3;*/
-  /*stroke-width: 1px;*/
+bubble-chart {
+  overflow: hidden;
+  /*position: absolute;*/
+  /*z-ind    ex: 1;*/
 }
 
-
-body {
+rect {
+  overflow: hidden;
+  position: relative;
+  /*stroke: #6081a3;*/
+  /*stroke-width: 1px;*/
 }
 
 a, a:visited {
@@ -24,30 +29,18 @@ a, a:visited {
 }
 
 #container {
-  padding-top:20px;
   width: auto;
   border-left: 2px #ddd solid;
   border-right: 2px #ddd solid;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgb(238,242,245);
 }
 
 
 
 header {
-  padding: 10px;
-}
-
-#book-title {
-  /*font-family: georgia, "times new roman", times, serif;*/
-  color: #555;
-  font-size: 2.3em;
-  text-align: center;
-}
-
-#text-select {
-  float:right;
-  margin-right: 10px;
+  /*padding: 10px;*/
 }
 
 #vis {
@@ -55,38 +48,33 @@ header {
   position: relative;
 }
 
-#status {
-  padding:0 0 20px 20px;
-}
-
-#controls {
-  padding: 20px;
-  background-color: #eee;
-  margin: 10px;
-  width: 350px;
-}
-
 #bubble-background {
-  fill: none;
+  /*fill: none;*/
   pointer-events: all;
 }
 
 .bubble-node {
-  /*fill: #DCE9BE;*/
-  /*fill: rgba(230, 147, 117, 0.75);*/
+
 }
 
 .btn-group {
   width: 640px;
 }
 
+.button-row {
+  position: absolute;;
+  background-color: rgb(238,242,245);
+  z-index: 1000;
+}
+
 button {
   width: 150px;
   height: 40px;
-  font-size: 1.3em;
+  font-size: 1em;
   color: rbg(92,86,112);
   font-weight: 600;
   z-index: 2000;
+  border-bottom: 5px solid red;
 }
 
 .bubble-hover {
@@ -104,7 +92,7 @@ button {
 }
 
 a.bubble-label {
-  /*font-family: georgia, "times new roman", times, serif;*/
+  font-family: Lyon,Arial,sans-serif;
   color: rgb(56, 42, 59);
   cursor: pointer;
   display: block;
@@ -116,14 +104,16 @@ a.bubble-label {
 
 
 .bubble-label .bubble-label-value {
-  font: 11px sans-serif;
+  font-family: Lyon,Arial,sans-serif;
+  font-size: 11px;
   white-space: nowrap;
   margin-top: 5px;
+  overflow: hidden;
 }
 
-footer p {
-  text-align: center;
-  padding-top:20px;
-  padding-bottom:20px;
-  font: 13px sans-serif;
+.right-pane {
+  width: auto;
+  height: auto;
+  position: relative;
+  /*margin-left: 200px;*/
 }

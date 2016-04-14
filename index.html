@@ -26,21 +26,24 @@
   </head>
   <body>
     <div ng-app="plodab" id="container" class="container">
+      <div class="title">Pilot Project for Linked Open Data for Artists' Books</div>
       <div ng-controller="chartctrl" id="main" role="main">
-
+        <div class="right-pane">
         <div class="button-row">
           <button ng-click="updateSubjects($event)" class="btn btn-primary-outline btn-lg" ng-repeat="b in topicButtons" style="background-color:{{b.color}};" value="{{b.name}}">{{b.display}}</button>
+
+          <!-- <button ng-click="updateSubjects($event)" class="btn btn-primary-outline btn-lg" ng-repeat="b in topicButtons" style="border-bottom:12px solid {{b.color}};" value="{{b.name}}">{{b.display}}</button> -->
         </div>
 
         <bubble-chart ng-click="updateNodes($event)" bubble-data="bubbleChartData"></bubble-chart>
 
         <timeline-chart data="timelineData"></timeline-chart>
-
+      </div>
         <tree-chart data="treeData"></tree-chart>
 
-        <hello-world>
+        <!-- <hello-world>
           <world></world>
-        </hello-world>
+        </hello-world> -->
 
         <!-- <plodab-tool>
           <tree-chart-container>
@@ -60,7 +63,7 @@
 
     </div> <!--! end of #container -->
 
-    <script src="//code.angularjs.org/1.1.1/angular.js"></script>
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
     <script type="text/javascript" src="lib/data/chart_dummy_data.js"></script>
 
     <script type="text/javascript" src="lib/javascripts/resources/jquery-2.2.0.min.js"></script>
