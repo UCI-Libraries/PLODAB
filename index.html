@@ -36,7 +36,7 @@
                   <a ng-init=" isActive = ( b.name === 'subjects' ) ? true : false" ng-click="updateSubjects($event); isActive = !isActive" ng-class="{'active': isActive}" class="button" ng-repeat="b in topicButtons" style="color:{{b.color}};" name="{{b.name}}">{{b.display}}</a>
                 </div>
               </div>
-              <bubble-chart ng-click="updateNodes($event)" bubble-data="bubbleChartData"></bubble-chart>
+              <bubble-chart selected-nodes="selectedNodes" ng-click="updateNodes($event)" bubble-data="bubbleChartData"></bubble-chart>
               <timeline-chart data="timelineData"></timeline-chart>
             </div>
             <div class="right-pane-toggle"></div>
