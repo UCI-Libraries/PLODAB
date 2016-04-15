@@ -3,10 +3,17 @@
 }*/
 
 timeline-chart {
-  margin-left: 100px;
+  width: 100%;
   background-color: inherit;;
   z-index: 30;
   position: relative;
+}
+
+timeline-chart svg {
+  width: 90%;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .axis path,

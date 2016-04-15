@@ -1,5 +1,5 @@
 svg {
-  background-color: rgb(238,242,245);
+  background-color: whitesmoke;
   /*overflow: hidden;*/
 }
 
@@ -13,15 +13,11 @@ body {
 
 bubble-chart {
   overflow: hidden;
-  /*position: absolute;*/
-  /*z-ind    ex: 1;*/
 }
 
 rect {
   overflow: hidden;
   position: relative;
-  /*stroke: #6081a3;*/
-  /*stroke-width: 1px;*/
 }
 
 a, a:visited {
@@ -30,18 +26,25 @@ a, a:visited {
 
 #container {
   width: auto;
-  border-left: 2px #ddd solid;
-  border-right: 2px #ddd solid;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(238,242,245);
+  background-color: transparent;
+}
+
+.plodab-tool {
+  width: calc(window.InnerWidth * 0.95);
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  height: auto;
+  position: relative;
+  border: 1px lightgrey solid;
+  overflow: hidden;
+  background-color: whitesmoke;
+  /*margin-left: 200px;*/
 }
 
 
 
-header {
-  /*padding: 10px;*/
-}
 
 #vis {
   overflow: hidden;
@@ -57,33 +60,47 @@ header {
 
 }
 
-.btn-group {
-  width: 640px;
+.button-group {
+  width: 600px;
+  height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
 .button-row {
-  position: absolute;;
-  background-color: rgb(238,242,245);
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+  opacity: 1;
   z-index: 1000;
 }
 
-button {
+.button {
   width: 150px;
   height: 40px;
-  font-size: 1em;
-  color: rbg(92,86,112);
-  font-weight: 600;
+  font-size: 1.2em;
+  font-weight: 400;
   z-index: 2000;
-  border-bottom: 5px solid red;
+  opacity: 0.85;
+  margin: 15px;
+  padding: 6px 3px;
+  line-height:40px;
 }
+
+.button-unselected {
+  border: none;
+}
+
 
 .bubble-hover {
   opacity: 1;
 }
 
 .bubble-selected {
-  stroke: khaki;
-  stroke-width: 3.5px;
+  stroke: #c9c9c9;
+  stroke-width: 7px;
 }
 
 
@@ -93,7 +110,7 @@ button {
 
 a.bubble-label {
   font-family: Lyon,Arial,sans-serif;
-  color: rgb(56, 42, 59);
+  color: #464646;
   cursor: pointer;
   display: block;
   text-align: center;
@@ -112,8 +129,27 @@ a.bubble-label {
 }
 
 .right-pane {
-  width: auto;
+  width: calc(100%);
   height: auto;
   position: relative;
+  border: 1px red solid;
+  overflow: hidden;
+}
+
+.right-pane-chart {
+  width: calc(100% - 19px);
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  float: right;
   /*margin-left: 200px;*/
+}
+
+.right-pane-toggle {
+  float: left;
+  width: 19px;
+  position: relative;
+  float: left;
+  background-color: #f36f23;
+  height: 680px;
 }

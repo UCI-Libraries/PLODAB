@@ -26,20 +26,25 @@
   </head>
   <body>
     <div ng-app="plodab" id="container" class="container">
-      <div class="title">Pilot Project for Linked Open Data for Artists' Books</div>
+      <div class="title"><span>Pilot Project for Linked Open Data for Artists' Books</span></div>
       <div ng-controller="chartctrl" id="main" role="main">
-        <div class="right-pane">
-        <div class="button-row">
-          <button ng-click="updateSubjects($event)" class="btn btn-primary-outline btn-lg" ng-repeat="b in topicButtons" style="background-color:{{b.color}};" value="{{b.name}}">{{b.display}}</button>
-
-          <!-- <button ng-click="updateSubjects($event)" class="btn btn-primary-outline btn-lg" ng-repeat="b in topicButtons" style="border-bottom:12px solid {{b.color}};" value="{{b.name}}">{{b.display}}</button> -->
-        </div>
-
-        <bubble-chart ng-click="updateNodes($event)" bubble-data="bubbleChartData"></bubble-chart>
-
-        <timeline-chart data="timelineData"></timeline-chart>
+        <div class="plodab-tool">
+          <div class="right-pane">
+            <div class="right-pane-chart">
+              <div class="button-row">
+                <div class="button-group">
+                  <a ng-click="updateSubjects($event)" class="button button-unselected" ng-repeat="b in topicButtons" style="color:{{b.color}}; border-bottom:{{b.color}} solid 2px; background-color:{{b.background-color}};" name="{{b.name}}">{{b.display}}</a>
+                </div>
+              </div>
+              <bubble-chart ng-click="updateNodes($event)" bubble-data="bubbleChartData"></bubble-chart>
+              <timeline-chart data="timelineData"></timeline-chart>
+            </div>
+            <div class="right-pane-toggle">XXXXX</div>
+          </div>
+          <div class="left-pane">
+            <tree-chart data="treeData"></tree-chart>
+          </div>
       </div>
-        <tree-chart data="treeData"></tree-chart>
 
         <!-- <hello-world>
           <world></world>
