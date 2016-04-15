@@ -33,13 +33,13 @@
             <div class="right-pane-chart">
               <div class="button-row">
                 <div class="button-group">
-                  <a ng-click="updateSubjects($event)" class="button button-unselected" ng-repeat="b in topicButtons" style="color:{{b.color}}; border-bottom:{{b.color}} solid 2px; background-color:{{b.background-color}};" name="{{b.name}}">{{b.display}}</a>
+                  <a ng-init=" isActive = ( b.name === 'subjects' ) ? true : false" ng-click="updateSubjects($event); isActive = !isActive" ng-class="{'active': isActive}" class="button" ng-repeat="b in topicButtons" style="color:{{b.color}};" name="{{b.name}}">{{b.display}}</a>
                 </div>
               </div>
               <bubble-chart ng-click="updateNodes($event)" bubble-data="bubbleChartData"></bubble-chart>
               <timeline-chart data="timelineData"></timeline-chart>
             </div>
-            <div class="right-pane-toggle">XXXXX</div>
+            <div class="right-pane-toggle"></div>
           </div>
           <div class="left-pane">
             <tree-chart data="treeData"></tree-chart>

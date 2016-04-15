@@ -89,8 +89,13 @@ a, a:visited {
   line-height:40px;
 }
 
-.button-unselected {
-  border: none;
+.active {
+  border-bottom: 2px solid grey;
+  /*background-color: black;*/
+}
+
+.disabled {
+  border-bottom-width: 0px;
 }
 
 
@@ -132,7 +137,7 @@ a.bubble-label {
   width: calc(100%);
   height: auto;
   position: relative;
-  border: 1px red solid;
+  /*border: 1px red solid;*/
   overflow: hidden;
 }
 
