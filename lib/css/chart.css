@@ -1,5 +1,6 @@
 svg {
-
+  background-color: whitesmoke;
+  /*overflow: hidden;*/
 }
 
 
@@ -10,13 +11,13 @@ body {
   /*margin: 1em auto;*/
 }
 
-rect {
-  /*stroke: #6081a3;*/
-  /*stroke-width: 1px;*/
+bubble-chart {
+  overflow: hidden;
 }
 
-
-body {
+rect {
+  overflow: hidden;
+  position: relative;
 }
 
 a, a:visited {
@@ -24,78 +25,87 @@ a, a:visited {
 }
 
 #container {
-  padding-top:20px;
   width: auto;
-  border-left: 2px #ddd solid;
-  border-right: 2px #ddd solid;
   margin-left: auto;
   margin-right: auto;
+  background-color: transparent;
+}
+
+.plodab-tool {
+  width: calc(window.InnerWidth * 0.95);
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  height: auto;
+  position: relative;
+  border: 1px lightgrey solid;
+  overflow: hidden;
+  background-color: whitesmoke;
+  /*margin-left: 200px;*/
 }
 
 
 
-header {
-  padding: 10px;
-}
-
-#book-title {
-  /*font-family: georgia, "times new roman", times, serif;*/
-  color: #555;
-  font-size: 2.3em;
-  text-align: center;
-}
-
-#text-select {
-  float:right;
-  margin-right: 10px;
-}
 
 #vis {
   overflow: hidden;
   position: relative;
 }
 
-#status {
-  padding:0 0 20px 20px;
-}
-
-#controls {
-  padding: 20px;
-  background-color: #eee;
-  margin: 10px;
-  width: 350px;
-}
-
 #bubble-background {
-  fill: none;
+  /*fill: none;*/
   pointer-events: all;
 }
 
 .bubble-node {
-  /*fill: #DCE9BE;*/
-  /*fill: rgba(230, 147, 117, 0.75);*/
+
 }
 
-.btn-group {
-  width: 640px;
+.button-group {
+  width: 600px;
+  height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
-button {
+.button-row {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+  opacity: 1;
+  z-index: 1000;
+}
+
+.button {
   width: 150px;
   height: 40px;
-  font-size: 1.3em;
-  color: rbg(92,86,112);
-  font-weight: 600;
+  font-size: 1.2em;
+  font-weight: 400;
   z-index: 2000;
+  opacity: 0.85;
+  margin: 15px;
+  padding: 6px 3px;
+  line-height:40px;
 }
+
+.active {
+  border-bottom: 2px solid grey;
+  /*background-color: black;*/
+}
+
+.disabled {
+  border-bottom-width: 0px;
+}
+
 
 .bubble-hover {
   opacity: 1;
 }
 
 .bubble-selected {
-  stroke: khaki;
-  stroke-width: 3.5px;
+  stroke: #c9c9c9;
+  stroke-width: 7px;
 }
 
 
@@ -104,8 +114,8 @@ button {
 }
 
 a.bubble-label {
-  /*font-family: georgia, "times new roman", times, serif;*/
-  color: rgb(56, 42, 59);
+  font-family: Lyon,Arial,sans-serif;
+  color: #464646;
   cursor: pointer;
   display: block;
   text-align: center;
@@ -116,14 +126,35 @@ a.bubble-label {
 
 
 .bubble-label .bubble-label-value {
-  font: 11px sans-serif;
+  font-family: Lyon,Arial,sans-serif;
+  font-size: 11px;
   white-space: nowrap;
   margin-top: 5px;
+  overflow: hidden;
 }
 
-footer p {
-  text-align: center;
-  padding-top:20px;
-  padding-bottom:20px;
-  font: 13px sans-serif;
+.right-pane {
+  width: calc(100%);
+  height: auto;
+  position: relative;
+  /*border: 1px red solid;*/
+  overflow: hidden;
+}
+
+.right-pane-chart {
+  width: calc(100% - 19px);
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  float: right;
+  /*margin-left: 200px;*/
+}
+
+.right-pane-toggle {
+  float: left;
+  width: 19px;
+  position: relative;
+  float: left;
+  background-color: #f36f23;
+  height: 680px;
 }

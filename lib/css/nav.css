@@ -1,17 +1,20 @@
-.btn:hover {
-  /*background-color: #f0f0f0;*/
+.title {
+  height: 50px;
+  width: 100%;
+  font-size: 1.4em;
+  background-color: #00768a;
+  position: relative;
+  z-index: 500;
+  text-align: right;
+  display: block;
+  float: none;
+  margin: 0 60px
+  padding: .1em 3em;
+  color: #fff;
+  line-height: 1;
 }
 
-.btn {
-  border: none;
-  border-bottom: : 1px solid white;
-  opacity: 0.75;
-}
-
-.btn-select {
-  opacity: 1;
-}
-
-#text-select {
-  background-color: red;
+.title span {
+  line-height: 50px;
+  padding-right: 15px;
 }
