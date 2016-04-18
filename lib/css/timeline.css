@@ -1,9 +1,19 @@
-body {
+/*body {
   font: 10px sans-serif;
-}
+}*/
 
 timeline-chart {
-  /*margin-left: 150px;*/
+  width: 100%;
+  background-color: inherit;;
+  z-index: 30;
+  position: relative;
+}
+
+timeline-chart svg {
+  width: 90%;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .axis path,
@@ -22,7 +32,7 @@ timeline-chart {
 }
 
 .d3-tip {
-  width: 270px;
+  width: 250px;
   height: auto;
   /*overflow: scroll;*/
   line-height: 1;
@@ -31,6 +41,7 @@ timeline-chart {
   background: rgba(0, 0, 0, 0.8);
   color: "#fff";
   border-radius: 2px;
+  z-index: 90;
 }
 
 /* Creates a small triangle extender for the tooltip */
@@ -39,7 +50,7 @@ timeline-chart {
   display: inline;
   font-size: 10px;
   width: 100%;
-  line-height: 1;
+  line-height: 0.85;
   color: rgba(0, 0, 0, 0.8);
   content: "\25BC";
   position: absolute;
@@ -54,7 +65,7 @@ timeline-chart {
 }
 
 .d3-tip-image {
-  width: 100px;
+  width: 80px;
   height: 100px;
   background-color: white;
   float: left;
@@ -68,11 +79,13 @@ timeline-chart {
 .tip-content span {
   float: right;
   padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 5px;
   line-height: 1.4;
-  width: 130px;
+  width: 120px;
   height: auto;
   font-weight: 200;
-  font-size: 1.1em;
+  font-size: 1em;
   overflow: visible;
-  padding-left: 5px;
 }
