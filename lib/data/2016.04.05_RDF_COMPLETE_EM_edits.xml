@@ -13221,8 +13221,8 @@
       </vra:hasTechnique>
       <!--Skipping over
         -->
-      <vra:copyOf>
-         <rdf:Description rdf:about="http://n2t.net/ark:/87280/t07h1ggn">
+        <vra:copyOf>
+           <rdf:Description rdf:about="http://n2t.net/ark:/87280/t07h1ggn">
             <rdf:type rdf:resource="http://purl.org/vra/Intangible"/>
             <rdf:type rdf:resource="http://purl.org/vra/StructuredValue"/>
             <vra:name>Calisphere work</vra:name>
