@@ -38,10 +38,11 @@ timeline-chart svg {
   line-height: 1;
   font-weight: bold;
   padding: 1px;
-  background: rgba(0, 0, 0, 0.8);
+  background: #555759;
   color: "#fff";
   border-radius: 2px;
   z-index: 90;
+  box-shadow: 4px 4px 8px #888888;
 }
 
 /* Creates a small triangle extender for the tooltip */
@@ -51,10 +52,25 @@ timeline-chart svg {
   font-size: 10px;
   width: 100%;
   line-height: 0.85;
-  color: rgba(0, 0, 0, 0.8);
+  color: #555759;
   content: "\25BC";
   position: absolute;
   text-align: center;
+  /*box-shadow: 2px 2px 0px #fff;*/
+}
+
+.null {
+  /*box-sizing: border-box;*/
+  /*display: inline;
+  font-size: 10px;*/
+  width: 10%;
+  height: 100px;
+  margin-bottom: 30px;
+  background-color: red;
+  content: "";
+  /*position: absolute;*/
+  /*text-align: center;*/
+  /*box-shadow: 2px 2px 0px #fff;*/
 }
 
 /* Style northward tooltips differently */
@@ -64,28 +80,47 @@ timeline-chart svg {
   left: 0;
 }
 
-.d3-tip-image {
-  width: 80px;
+.d3-tip-img {
+  width: 100px;
   height: 100px;
   background-color: white;
   float: left;
+  position: relative;
+  margin-bottom: 15px;
 }
 
 .tip-content {
   width: 240px;
-  padding: 10px;
+  height: auto;
+  padding: 15px;
 }
 
 .tip-content span {
   float: right;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   padding-bottom: 20px;
   padding-right: 10px;
-  padding-left: 5px;
+  padding-left: 10px;
   line-height: 1.4;
   width: 120px;
   height: auto;
-  font-weight: 200;
-  font-size: 1em;
+  font-weight: lighter;
+  font-size: 1.1em;
   overflow: visible;
+  text-align: left;
+}
+
+.tip-title {
+
+}
+
+.tip-agent {
+  font-weight: 100;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1.2em;
+  width: 95%;
+  height: auto;
+  position: relative;
+  float: left;
 }
