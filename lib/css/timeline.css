@@ -23,10 +23,6 @@ timeline-chart svg {
   shape-rendering: crispEdges;
 }
 
-.bar {
-  fill: steelblue;
-}
-
 .x.axis path {
   display: none;
 }
