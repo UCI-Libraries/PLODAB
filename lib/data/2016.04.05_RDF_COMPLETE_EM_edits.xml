@@ -5185,9 +5185,9 @@
             <rdf:type rdf:resource="http://purl.org/dc/terms/AgentClass"/>
             <vra:name>artists (visual artists)</vra:name>
          </rdf:Description>
-         <rdf:Description rdf:about="d1e4212">
+         <!-- <rdf:Description rdf:about="d1e4212">
             <vra:name>author</vra:name>
-         </rdf:Description>
+         </rdf:Description> -->
       </vra:creator>
       <!--Skipping over
             -->
@@ -5201,9 +5201,9 @@
             <rdf:type rdf:resource="http://purl.org/dc/terms/AgentClass"/>
             <vra:name>illustrators</vra:name>
          </rdf:Description>
-         <rdf:Description rdf:about="d1e4224">
+         <!-- <rdf:Description rdf:about="d1e4224">
             <vra:name>illustrator</vra:name>
-         </rdf:Description>
+         </rdf:Description> -->
       </vra:creator>
       <!--Skipping over
         -->
@@ -7099,9 +7099,9 @@
             <rdf:type rdf:resource="http://purl.org/vra/Person"/>
             <vra:name>Fenn, Charles, Captain</vra:name>
          </rdf:Description>
-         <rdf:Description rdf:about="d1e5777">
+         <!-- <rdf:Description rdf:about="d1e5777">
             <vra:name>author</vra:name>
-         </rdf:Description>
+         </rdf:Description> -->
          <rdf:Description rdf:about="http://vocab.getty.edu/aat/300025103">
             <rdf:type rdf:resource="http://purl.org/dc/terms/AgentClass"/>
             <vra:name>artists (visual artists)</vra:name>
@@ -7115,9 +7115,9 @@
             <rdf:type rdf:resource="http://purl.org/vra/Person"/>
             <vra:name>Thomas, C. David</vra:name>
          </rdf:Description>
-         <rdf:Description rdf:about="d1e5789">
+         <!-- <rdf:Description rdf:about="d1e5789">
             <vra:name>illustrator</vra:name>
-         </rdf:Description>
+         </rdf:Description> -->
          <rdf:Description rdf:about="http://vocab.getty.edu/aat/300025123">
             <rdf:type rdf:resource="http://purl.org/dc/terms/AgentClass"/>
             <vra:name>illustrators</vra:name>
