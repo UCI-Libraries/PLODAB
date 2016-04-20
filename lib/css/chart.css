@@ -7,8 +7,6 @@ svg {
 body {
   font-family: KievitWeb,Arial,sans-serif;
   width: 100%;
-
-  /*margin: 1em auto;*/
 }
 
 bubble-chart {
@@ -86,7 +84,7 @@ a, a:visited {
   opacity: 0.85;
   margin: 15px;
   padding: 6px 3px;
-  line-height:40px;
+  line-height: 36px;
 }
 
 .active {
