@@ -9,3 +9,18 @@
   stroke: #ccc;
   stroke-width: 1.5px;
 }
+
+
+.last {
+  /*color: red;*/
+}
+
+.mid {
+  /*color: blue;*/
+  font-size: 14px;
+}
+
+.artifact {
+  /*color: pink;*/
+  font-size: 1em;
+}
