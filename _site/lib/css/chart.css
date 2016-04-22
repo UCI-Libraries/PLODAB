@@ -1,56 +1,25 @@
-svg {
-
-}
-
-
 body {
-  font-family: sans-serif;
   width: 100%;
-  /*margin: 1em auto;*/
+  height: 100%;
 }
 
-rect {
-  stroke: #6081a3;
-  stroke-width: 1px;
-}
-
-
-body {
-}
-
-a, a:visited {
-  color:#333;
-}
 
 #container {
-  padding-top:20px;
+  /*padding-top:20px;*/
   width: auto;
-  border-left: 2px #ddd solid;
-  border-right: 2px #ddd solid;
+  /*border-left: 2px #ddd solid;
+  border-right: 2px #ddd solid;*/
   margin-left: auto;
   margin-right: auto;
 }
-
 
 
 header {
   padding: 10px;
 }
 
-#book-title {
-  font-family: georgia, "times new roman", times, serif;
-  color: #555;
-  font-size: 2.3em;
-  text-align: center;
-}
-
-#text-select {
-  float:right;
-  margin-right: 10px;
-}
-
 #vis {
-  overflow: hidden;
+  overflow: scroll;
   position: relative;
 }
 

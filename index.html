@@ -28,22 +28,24 @@
     <div ng-app="plodab" id="container" class="container">
       <div class="title"><span>Pilot Project for Linked Open Data for Artists' Books</span></div>
       <div ng-controller="chartctrl" id="main" role="main">
-        <div class="plodab-tool">
-          <div class="right-pane">
-            <div class="right-pane-chart">
-              <div class="button-row">
-                <div class="button-group">
-                  <a ng-init=" isActive = ( b.name === 'subjects' ) ? true : false" ng-click="updateSubjects($event); isActive = !isActive" ng-class="{'active': isActive}" class="button" ng-repeat="b in topicButtons" style="color:{{b.color}};" name="{{b.name}}">{{b.display}}</a>
+        <div class="focus">
+          <div class="plodab-tool">
+            <div class="right-pane">
+              <div class="right-pane-chart">
+                <div class="button-row">
+                  <div class="button-group">
+                    <a ng-init=" isActive = ( b.name === 'subjects' ) ? true : false" ng-click="updateSubjects($event); isActive = !isActive" ng-class="{'active': isActive}" class="button" ng-repeat="b in topicButtons" style="color:{{b.color}};" name="{{b.name}}">{{b.display}}</a>
+                  </div>
                 </div>
+                <bubble-chart selected-nodes="selectedNodes" selected-topics="selectedTopics" ng-click="updateNodes($event)" bubble-data="bubbleChartData"></bubble-chart>
+                <timeline-chart data="timelineData" key="selectedKey" timeline-data-watcher="timelineIsCurrent"></timeline-chart>
               </div>
-              <bubble-chart selected-nodes="selectedNodes" selected-topics="selectedTopics" ng-click="updateNodes($event)" bubble-data="bubbleChartData"></bubble-chart>
-              <timeline-chart data="timelineData" key="selectedKey" timeline-data-watcher="timelineIsCurrent"></timeline-chart>
+              <toggle-bar position-left="positionLeft" class="chart-position-toggle"></toggle-bar>
             </div>
-            <div class="right-pane-toggle"></div>
-          </div>
-          <div class="left-pane">
-            <tree-chart data="treeData"></tree-chart>
-          </div>
+            <div class="left-pane">
+              <tree-chart data="treeData"></tree-chart>
+            </div>
+        </div>
       </div>
 
         <!-- <hello-world>
@@ -89,10 +91,13 @@
     <!-- controllers -->
     <script type="text/javascript" src="lib/javascripts/angular/linked_books.js"></script>
 
-    <!-- directives -->
-    <script type="text/javascript" src="lib/javascripts/angular/directives/bubble_chart.js"></script>
-    <script type="text/javascript" src="lib/javascripts/angular/directives/timeline_chart.js"></script>
-    <script type="text/javascript" src="lib/javascripts/angular/directives/tree_chart.js"></script>
+    <!-- directives for charts-->
+    <script type="text/javascript" src="lib/javascripts/angular/directives/charts/bubble_chart.js"></script>
+    <script type="text/javascript" src="lib/javascripts/angular/directives/charts/timeline_chart.js"></script>
+    <script type="text/javascript" src="lib/javascripts/angular/directives/charts/tree_chart.js"></script>
+
+    <!-- directives for other components of the tool -->
+    <script type="text/javascript" src="lib/javascripts/angular/directives/components/toggle_bar.js"></script>
 
      <!-- services -->
     <script type="text/javascript" src="lib/javascripts/angular/services/data_service.js"></script>

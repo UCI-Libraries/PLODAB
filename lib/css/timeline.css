@@ -4,16 +4,21 @@
 
 timeline-chart {
   width: 100%;
-  background-color: inherit;;
+  height: auto;
+  background-color: red;
   z-index: 30;
   position: relative;
 }
 
 timeline-chart svg {
-  width: 90%;
+  width: 95%;
   position: relative;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+timeline-chart rect {
+  cursor: pointer;
 }
 
 .axis path,
@@ -90,10 +95,6 @@ timeline-chart svg {
   font-size: 1.1em;
   overflow: visible;
   text-align: left;
-}
-
-.tip-title {
-
 }
 
 .tip-agent {
