@@ -25,7 +25,7 @@ body {
 }
 
 .plodab-tool {
-  width: calc(100% * 2 + 7%);
+  width: calc(100% * 2 - 5%);
   height: 100%;
   position: relative;
   left: -100%;
@@ -41,7 +41,7 @@ body {
 }
 
 .right-pane {
-  width: calc(100% / 2 );
+  width: 51.2195122%;
   height: auto;
   position: relative;
   /*border: 1px red solid;*/
@@ -60,7 +60,7 @@ body {
 
 .chart-position-toggle {
   float: left;
-  width: 7%;
+  width: 2.4390244%;
   position: relative;
   float: left;
   background-color: #f36f23;
@@ -74,10 +74,9 @@ body {
 
 .left-pane {
   float: left;
-  width: calc(50% - 7%);
+  width: 48.7804878%;
   background-color: green;
 }
-}toggle clicked in controller
 
 bubble-chart {
   background-color: blue;
