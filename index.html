@@ -14,8 +14,8 @@
 
     <!-- Local CSS -->
     <link rel="stylesheet" href="lib/css/reset.css">
-    <link rel="stylesheet" href="lib/css/chart.css">
-    <link rel="stylesheet" href="lib/css/nav.css">
+    <link rel="stylesheet" href="lib/css/chart_layout.css">
+    <link rel="stylesheet" href="lib/css/bubble_chart.css">
     <link rel="stylesheet" href="lib/css/timeline.css">
     <link rel="stylesheet" href="lib/css/tree.css">
 
@@ -39,7 +39,7 @@
               <toggle-bar toggle-panel-view="togglePanelView()" class="chart-position-toggle"></toggle-bar>
             </div>
             <div class="left-pane">
-              <tree-chart data="treeData"></tree-chart>
+              <tree-chart tree-selection="selectedTreeTopic" reset-bubble-chart-from-tree="resetBubbleChartFromTree()" data="treeData"></tree-chart>
             </div>
         </div>
       </div>

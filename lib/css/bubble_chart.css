@@ -1,0 +1,78 @@
+bubble-chart {
+  background-color: whitesmoke;
+  overflow: hidden;
+  z-index: 5;
+}
+
+
+#bubble-background {
+  pointer-events: all;
+}
+
+.button-group {
+  width: 600px;
+  height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.button-row {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+  opacity: 1;
+  z-index: 1000;
+}
+
+.button {
+  width: 150px;
+  height: 40px;
+  font-size: 1.2em;
+  font-weight: 400;
+  z-index: 2000;
+  opacity: 0.85;
+  margin: 15px;
+  padding: 6px 3px;
+  line-height: 36px;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid grey;
+  /*background-color: black;*/
+}
+
+.disabled {
+  border-bottom-width: 0px;
+}
+
+
+.bubble-hover {
+  opacity: 1;
+}
+
+.bubble-selected {
+  stroke: #c9c9c9;
+  stroke-width: 7px;
+}
+
+a.bubble-label {
+  font-family: Lyon,Arial,sans-serif;
+  color: #464646;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  position: absolute;
+}
+
+
+.bubble-label .bubble-label-value {
+  font-family: Lyon,Arial,sans-serif;
+  font-size: 11px;
+  white-space: nowrap;
+  margin-top: 5px;
+}

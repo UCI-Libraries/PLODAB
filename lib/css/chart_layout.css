@@ -1,0 +1,101 @@
+body {
+  font-family: KievitWeb,Arial,sans-serif;
+  width: 100%;
+}
+
+#container {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f36f23;
+}
+
+.title {
+  height: 50px;
+  width: 100%;
+  font-size: 1.4em;
+  background-color: white;
+  position: relative;
+  z-index: 500;
+  text-align: right;
+  display: block;
+  float: none;
+  margin: 0 60px
+  padding: .1em 3em;
+  color: #7c7e7f;
+  line-height: 1;
+  border-bottom: 2px solid #f36f23;
+}
+
+.title span {
+  line-height: 50px;
+  padding-right: 15px;
+}
+
+.focus {
+  position: relative;
+  width: 100%;
+  height: 687px;
+  background-color: #555759;
+  overflow: hidden;
+  border-bottom: 2px solid #f36f23;
+}
+
+.plodab-tool {
+  width: calc(100% * 2 - 3%);
+  height: 100%;
+  position: relative;
+  left: -96%;
+  overflow: hidden;
+  background-color: whitesmoke;
+  background-color: #555759;
+  transition: all 500ms ease-in-out;
+  /*margin-left: 200px;*/
+}
+
+.plodab-tool.shift {
+  left: 0.5%;
+}
+
+.right-pane {
+  width: 51.3%;
+  height: 687px;
+  position: relative;
+  background-color: whitesmoke;
+  float: right;
+  overflow: hidden;
+}
+
+.right-pane-chart {
+  width: 96.1%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  float: right;
+  /*margin-left: 200px;*/
+}
+
+.chart-position-toggle {
+  float: left;
+  width: 3.9%;
+  position: relative;
+  float: left;
+  background-color: #00768a;
+  opacity: 0.8;
+  height: 100%;
+  cursor: pointer;
+}
+
+.chart-position-toggle:hover {
+  opacity: 1;
+}
+
+.left-pane {
+  float: left;
+  width: 48%;
+  background-color: "black";
+}
+
+.left-pane svg {
+  fill: "black";
+}

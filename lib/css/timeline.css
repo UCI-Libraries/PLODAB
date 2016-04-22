@@ -18,8 +18,13 @@ timeline-chart rect {
   cursor: pointer;
 }
 
+.tl-background {
+  background-color: whitesmoke;
+}
+
 .tick text {
-  stroke: #464646;
+  stroke: #555759;
+  font-weight: lighter;
 }
 
 .axis path,
