@@ -40,7 +40,7 @@
                 <bubble-chart selected-nodes="selectedNodes" selected-topics="selectedTopics" ng-click="updateNodes($event)" bubble-data="bubbleChartData"></bubble-chart>
                 <timeline-chart data="timelineData" key="selectedKey" timeline-data-watcher="timelineIsCurrent"></timeline-chart>
               </div>
-              <toggle-bar position-left="positionLeft" class="chart-position-toggle"></toggle-bar>
+              <toggle-bar toggle-panel-view="togglePanelView()" class="chart-position-toggle"></toggle-bar>
             </div>
             <div class="left-pane">
               <tree-chart data="treeData"></tree-chart>

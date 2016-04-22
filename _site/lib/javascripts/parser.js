@@ -26,7 +26,7 @@ function theNewFunction(xml) {
   try {
       $rdf.parse(body, store, uri, mimeType);
   } catch (err) {
-      console.log(err);
+      // console.log(err);
   }
 
   // console.log(store);
@@ -35,8 +35,8 @@ function theNewFunction(xml) {
   // console.log(books);
   for (var i=0; i < books.length; i++) {
       book = books[i];
-      console.log(book);
-      console.log(book.subject.uri);
+      // console.log(book);
+      // console.log(book.subject.uri);
   }
 
   var resource = store.each(undefined, VRA("name"), undefined);

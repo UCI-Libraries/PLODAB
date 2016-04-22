@@ -28,11 +28,16 @@ body {
   width: calc(100% * 2 + 7%);
   height: 100%;
   position: relative;
+  left: -100%;
   border: 1px lightgrey solid;
   /*overflow: hidden;*/
   background-color: whitesmoke;
   background-color: purple;
   /*margin-left: 200px;*/
+}
+
+.plodab-tool.harumpf {
+  left: 0;
 }
 
 .right-pane {
@@ -72,6 +77,7 @@ body {
   width: calc(50% - 7%);
   background-color: green;
 }
+}toggle clicked in controller
 
 bubble-chart {
   background-color: blue;
