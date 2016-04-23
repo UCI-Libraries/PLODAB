@@ -124,7 +124,7 @@
     })
     .directive('treeChart', function() {
       var chart = Tree();
-      console.log('tree chart:', Tree());
+      // console.log('tree chart:', Tree());
       return {
         restrict: 'E',
         scope: {

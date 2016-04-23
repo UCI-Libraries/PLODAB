@@ -5,22 +5,83 @@
 
 
 .link {
-  fill: none;
-  stroke: #ccc;
   stroke-width: 1.5px;
 }
 
+tree-chart {
+  /*width of chart is set in the d3 module.*/
+  position: relative;
+  width: auto;
+  height: auto;
+  margin-left: calc(50% - 430px);
+  margin-right: calc(50% - 430px);
+  /*background-color: orange;*/
+}
+
+
+.artifact {
+  display: block;
+  color:grey;
+  /*text-align: center;*/
+  vertical-align: top;
+  width:860px;
+  height: 300px;
+  font-size: 1em;
+  overflow: visible;
+  background-color: whitesmoke;
+  left: 340px;
+
+}
+
+.artifact-text {
+  display: inline-block;
+  position: relative;
+  padding-left:10px;
+  width: 570px;
+  float: right;
+  height: 300px;
+  overflow: scroll;
+  float: right;
+  padding-left: 0px;
+  background-color: whitesmoke;
+  /*left: 340px;*/
+  left: -10px;
+  /*margin-left: -50px;*/
+  text-align: left;
+}
+
+.artifact-text h3 {
+  padding:5px;
+  font-weight: 300;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.tree-image {
+  color:grey;
+  display:inline-block;
+  text-align: center;
+  vertical-align:top;
+  width: 270px;
+  height: 290px;
+  float: left;
+  position: relative;
+  background-color: whitesmoke;
+  padding: 5px;
+  /*left: 343px;*/
+}
+
+.tree-image img {
+  border:5px solid #f36f23;
+  height: 250px;
+  width: 250px;
+  margin: 5px;
+}
 
 .last {
-  /*color: red;*/
+  top: -10px;
 }
 
 .mid {
-  /*color: blue;*/
   font-size: 14px;
-}
-
-.artifact {
-  /*color: pink;*/
-  font-size: 1em;
 }

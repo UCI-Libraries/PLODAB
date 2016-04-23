@@ -341,12 +341,12 @@ Tree = function() {
           if (d.children) {
             count += d.children.length;
           } else {
-            console.log("rejects", d.children);
+            // console.log("rejects", d.children);
           }
         });
         if (count * rectW > 600) {
           var popped = activeNodes.shift();
-            console.log(activeNodes, popped);
+            // console.log(activeNodes, popped);
             collapse(popped);
         }
       }
