@@ -23,7 +23,7 @@ timeline-chart rect {
 }
 
 .tick text {
-  stroke: #555759;
+  fill: #555759;
   font-weight: lighter;
 }
 
