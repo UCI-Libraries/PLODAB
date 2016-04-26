@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="lib/css/timeline.css">
     <link rel="stylesheet" href="lib/css/tree.css">
 
+    <link rel="icon" type="image/png" href="lib/images/favicons.png">
   </head>
   <body>
     <div ng-app="plodab" id="container" class="container">
@@ -30,10 +31,10 @@
               <div class="right-pane-chart">
                 <div class="button-row">
                   <div class="button-group">
-                    <a ng-init=" isActive = ( b.name === 'subjects' ) ? true : false" ng-click="updateSubjects($event); isActive = !isActive" ng-class="{'active': isActive}" class="button" ng-repeat="b in topicButtons" style="color:{{b.color}};" name="{{b.name}}">{{b.display}}</a>
+                    <a ng-init=" isActive = ( b.name === 'subjects' ) ? true : false" ng-click="updateSubjects($event); isActive = !isActive" ng-class="{'active': isActive}" class="button" ng-repeat="b in topicButtons" style="color:{{b.color}};" name="{{b.name}}" ng-cloak>{{b.display}}</a>
                   </div>
                 </div>
-                <bubble-chart selected-nodes="selectedNodes" selected-topics="selectedTopics" ng-click="updateNodes($event)" bubble-data="bubbleChartData"></bubble-chart>
+                <bubble-chart selected-nodes="selectedNodes" selected-topics="selectedTopics" ng-click="updateNodes($event)" bubble-data="bubbleChartData" passed-tree-data="selectedTreeTopic"></bubble-chart>
                 <timeline-chart data="timelineData" key="selectedKey" timeline-data-watcher="timelineIsCurrent"></timeline-chart>
               </div>
               <toggle-bar toggle-panel-view="togglePanelView()" class="chart-position-toggle"></toggle-bar>
@@ -87,17 +88,3 @@
 
   </body>
 </html>
-
-<!-- <div class='tree-node artifact'>
-  <div class='tree-text'>
-    <h3 style='padding:5px;margin:0px'>" + d.nodeName + "</h3>
-    <p>"+ d.description+ "</p>
-    <p> " + d.dateCreated + "</p>
-    <p> " + d.collection + "</p>
-    <p> " + "put agents here" + "</p>
-    <p> " + d.typeOfWork + "</p>
-  </div>
-  <div class='tree-image'>
-    <img src=" + d.imageURI + "></img>
-  </div>
-</div> -->
