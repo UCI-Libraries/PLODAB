@@ -32,6 +32,12 @@ body {
   padding-right: 15px;
 }
 
+.title img {
+  margin: 15px;
+  height: 20px;
+  float: left;
+}
+
 .focus {
   position: relative;
   width: 100%;
