@@ -39,7 +39,7 @@ tree-chart {
   padding-left:10px;
   width: 570px;
   height: 300px;
-  overflow: scroll;
+  /*overflow: scroll;*/
   float: right;
   padding-left: 0px;
   background-color: whitesmoke;
@@ -53,6 +53,14 @@ tree-chart {
   font-weight: 300;
   font-size: 1.5em;
   text-align: left;
+}
+
+.artifact-desc {
+  height: 100px;
+  width: 570px;
+  background-color: white;
+  /*overflow: auto;*/
+  color: green;
 }
 
 .tree-image {
