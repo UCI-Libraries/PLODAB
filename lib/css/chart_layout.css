@@ -32,6 +32,12 @@ body {
   padding-right: 15px;
 }
 
+.title img {
+  margin: 15px;
+  height: 20px;
+  float: left;
+}
+
 .focus {
   position: relative;
   width: 100%;
@@ -84,10 +90,26 @@ body {
   opacity: 0.8;
   height: 100%;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .chart-position-toggle:hover {
   opacity: 1;
+}
+
+.toggle-ellipsis {
+  position: relative;
+  font-size: 60px;
+  height: auto;
+  width: 45%;
+  opacity: 0.5;
+  color: #00768a;
+}
+
+.white {
+  color: white;
 }
 
 .left-pane {
