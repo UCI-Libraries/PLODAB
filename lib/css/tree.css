@@ -105,13 +105,17 @@ tree-chart {
   }
   .artifact {
     /*position: absolute;*/
+    height: 300px;
     /*left: -270px;*/
+  }
+  .artifact-desc {
+    width: 370px;
   }
   .tree-image {
     left: 0px;
   }
   .artifact-text {
-    width: 380px;
+    width: 370px;
     left: -190px;
   }
 }
