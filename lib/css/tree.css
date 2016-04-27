@@ -20,31 +20,29 @@ tree-chart {
 
 
 .artifact {
-  display: block;
   color:grey;
   /*text-align: center;*/
-  vertical-align: top;
+  /*vertical-align: top;*/
   width:860px;
   height: 300px;
   font-size: 1em;
   overflow: visible;
   background-color: whitesmoke;
-  left: 340px;
-
+  /*left: 340px;*/
+  position: relative;
 }
 
 .artifact-text {
+  position: absolute;
   display: inline-block;
   position: relative;
   padding-left:10px;
   width: 570px;
-  float: right;
   height: 300px;
   overflow: scroll;
   float: right;
   padding-left: 0px;
   background-color: whitesmoke;
-  /*left: 340px;*/
   left: -10px;
   /*margin-left: -50px;*/
   text-align: left;
@@ -61,11 +59,11 @@ tree-chart {
   color:grey;
   display:inline-block;
   text-align: center;
-  vertical-align:top;
+  /*vertical-align:top;*/
   width: 270px;
   height: 290px;
-  float: left;
-  position: relative;
+  position: absolute;
+  left: -20px;
   background-color: whitesmoke;
   padding: 5px;
   /*left: 343px;*/
@@ -84,4 +82,22 @@ tree-chart {
 
 .mid {
   font-size: 14px;
+}
+
+@-moz-document url-prefix() {
+  foreign-object {
+    /*position: absolute;
+    left: -270px;*/
+  }
+  .artifact {
+    /*position: absolute;*/
+    /*left: -270px;*/
+  }
+  .tree-image {
+    left: 0px;
+  }
+  .artifact-text {
+    width: 380px;
+    left: -190px;
+  }
 }
