@@ -15,20 +15,16 @@ tree-chart {
   height: auto;
   margin-left: calc(50% - 430px);
   margin-right: calc(50% - 430px);
-  /*background-color: orange;*/
 }
 
 
 .artifact {
   color:grey;
-  /*text-align: center;*/
-  /*vertical-align: top;*/
   width:860px;
-  height: 300px;
+  height: 290px;
   font-size: 1em;
   overflow: visible;
   background-color: whitesmoke;
-  /*left: 340px;*/
   position: relative;
 }
 
@@ -38,29 +34,39 @@ tree-chart {
   position: relative;
   padding-left:10px;
   width: 570px;
-  height: 300px;
-  /*overflow: scroll;*/
+  height: 280px;
   float: right;
   padding-left: 0px;
   background-color: whitesmoke;
   left: -10px;
-  /*margin-left: -50px;*/
   text-align: left;
 }
 
 .artifact-text h3 {
-  padding:5px;
   font-weight: 300;
   font-size: 1.5em;
   text-align: left;
 }
 
+.artifact-text p {
+  font-size: 1.1em;
+}
+
+.artifact-text a {
+  text-decoration: none;
+  color: #f36f23;
+}
+
+.artifact-text a:hover {
+  /*color: red;*/
+}
+
+
 .artifact-desc {
   height: 100px;
   width: 570px;
-  background-color: white;
-  /*overflow: auto;*/
-  color: green;
+  overflow: auto;
+  color: black;
 }
 
 .tree-image {
@@ -69,7 +75,7 @@ tree-chart {
   text-align: center;
   /*vertical-align:top;*/
   width: 270px;
-  height: 290px;
+  height: 280px;
   position: absolute;
   left: -20px;
   background-color: whitesmoke;
