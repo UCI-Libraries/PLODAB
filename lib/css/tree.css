@@ -99,14 +99,8 @@ tree-chart {
 }
 
 @-moz-document url-prefix() {
-  foreign-object {
-    /*position: absolute;
-    left: -270px;*/
-  }
   .artifact {
-    /*position: absolute;*/
     height: 300px;
-    /*left: -270px;*/
   }
   .artifact-desc {
     width: 370px;
