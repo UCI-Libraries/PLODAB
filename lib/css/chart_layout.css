@@ -7,7 +7,7 @@ body {
   width: auto;
   margin-left: auto;
   margin-right: auto;
-  background-color: #f36f23;
+  background-color: #555759;
 }
 
 .title {
@@ -27,7 +27,9 @@ body {
   border-bottom: 2px solid #f36f23;
 }
 
-.title span {
+.title h1 {
+  font-size: 1em;
+  margin: 0;
   line-height: 50px;
   padding-right: 15px;
 }
@@ -120,4 +122,15 @@ body {
 
 .left-pane svg {
   fill: "black";
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
