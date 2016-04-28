@@ -2,7 +2,7 @@
 
 Source code for a grant funded project to connect scholars to artists' book through the use of linked open data (LOD).
 
-The data visualization tool uses metadata in an RDF/XML format from the special collections of the library at the University of California, Irvine. The PLODAB tool is built using d3.js, angular.js, and rdflib.js.
+The data visualization tool uses metadata in an RDF/XML format from the special collections of the library at the University of California, Irvine. The PLODAB tool is built using [D3.js](https://d3js.org/), [AngularJS](https://angularjs.org/), and [rdflib.js](https://github.com/linkeddata/rdflib.js/).
 
 Rdflib parses the RDF/XML data using an angular service, and returns it to three interactive charts, encapsulated into custom directives. These three charts work together to give a hierarchically described tool for exploration of the subjects, materials, techniques, and places of publication within the metadata.
 
