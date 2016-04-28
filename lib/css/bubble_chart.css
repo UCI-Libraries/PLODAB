@@ -39,6 +39,14 @@ bubble-chart {
   cursor: pointer;
 }
 
+.button:hover {
+  border-bottom: 2px solid grey;
+}
+
+.button:focus {
+  border-bottom: 2px solid grey;
+}
+
 .active {
   border-bottom: 2px solid grey;
   /*background-color: black;*/
@@ -69,6 +77,13 @@ a.bubble-label {
   position: absolute;
 }
 
+bubble-chart a:hover {
+  color: #28241E;
+}
+
+bubble-chart a:focus {
+  color: #28241E;
+}
 
 .bubble-label .bubble-label-value {
   font-family: Lyon,Arial,sans-serif;

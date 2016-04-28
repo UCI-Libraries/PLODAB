@@ -42,7 +42,7 @@ tree-chart {
   text-align: left;
 }
 
-.artifact-text h3 {
+.artifact-text h2 {
   font-weight: 300;
   font-size: 1.5em;
   text-align: left;
@@ -55,10 +55,11 @@ tree-chart {
 .artifact-text a {
   text-decoration: none;
   color: #f36f23;
+  opacity: 0.8;
 }
 
 .artifact-text a:hover {
-  /*color: red;*/
+  color: #ae4609;
 }
 
 
@@ -73,14 +74,12 @@ tree-chart {
   color:grey;
   display:inline-block;
   text-align: center;
-  /*vertical-align:top;*/
   width: 270px;
   height: 280px;
   position: absolute;
   left: -20px;
   background-color: whitesmoke;
   padding: 5px;
-  /*left: 343px;*/
 }
 
 .tree-image img {

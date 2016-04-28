@@ -23,7 +23,7 @@
   </head>
   <body>
     <div ng-app="plodab" id="container" class="container">
-      <div class="title"><img src="lib/images/full-wordmark-1.png"/><span>Pilot Project for Linked Open Data for Artists' Books</span></div>
+      <div class="title"><img alt="University of California, Irvine" src="lib/images/full-wordmark-1.png"/><h1>Pilot Project for Linked Open Data for Artists' Books</h1></div>
       <div ng-controller="chartctrl" id="main" role="main">
         <div class="focus">
           <div class="plodab-tool">
@@ -31,12 +31,12 @@
               <div class="right-pane-chart">
                 <div class="button-row">
                   <div class="button-group">
-                    <!-- <a ng-init="isActive = ( b.name === 'subjects' ) ? true : false" ng-click="updateSubjects($event); isActive = !isActive" ng-class="{'active': isActive}" class="button" ng-repeat="b in topicButtons" style="color:{{b.color}};" name="{{b.name}}" ng-cloak>{{b.display}}</a> -->
                     <a ng-click="updateSubjects($event)" ng-class="{active: b.selected}" class="button" ng-repeat="b in topicButtons" style="color:{{b.color}};" name="{{b.name}}" ng-cloak>{{b.display}}</a>
                   </div>
                 </div>
                 <bubble-chart selected-nodes="selectedNodes" selected-topics="selectedTopics" ng-click="updateNodes($event)" bubble-data="bubbleChartData" passed-tree-data="selectedTreeTopic"></bubble-chart>
                 <timeline-chart data="timelineData" key="selectedKey" timeline-data-watcher="timelineIsCurrent" toggle-panel-view="togglePanelView()"></timeline-chart>
+                <div class="sr-only">An interactive chart showing nodes color coded by topic, varying in size to indicate the number of occurences a particular topic occurs within the records pertaining to this collection.</div>
               </div>
               <toggle-bar toggle-panel-view="togglePanelView()" class="chart-position-toggle" tree-activated="treeActivated"><div class="toggle-ellipsis">&#8942;</div></toggle-bar>
             </div>
