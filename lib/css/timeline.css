@@ -45,11 +45,13 @@ timeline-chart rect {
   line-height: 1;
   font-weight: bold;
   padding: 1px;
-  background: #555759;
-  color: "#fff";
+  /*background: #555759;*/
+  background: white;
+  /*color: "#fff";*/
+  color: #555759;
   border-radius: 2px;
   z-index: 90;
-  box-shadow: 4px 4px 8px #888888;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.8);
 }
 
 /* Creates a small triangle extender for the tooltip */
@@ -60,10 +62,10 @@ timeline-chart rect {
   width: 100%;
   line-height: 0.85;
   color: #555759;
+  color: white;
   content: "\25BC";
   position: absolute;
   text-align: center;
-  /*box-shadow: 2px 2px 0px #fff;*/
 }
 
 /* Style northward tooltips differently */
@@ -80,9 +82,11 @@ timeline-chart rect {
   float: left;
   position: relative;
   margin-bottom: 15px;
+  border: 1px solid #eee;
 }
 
 .tip-content {
+  color: #555759;
   width: 240px;
   height: auto;
   padding: 15px;
@@ -94,7 +98,7 @@ timeline-chart rect {
   padding-right: 10px;
   padding-left: 10px;
   line-height: 1.4;
-  width: 120px;
+  width: 118px;
   height: auto;
   font-weight: lighter;
   font-size: 1.1em;
@@ -104,11 +108,24 @@ timeline-chart rect {
 
 .tip-agent {
   font-weight: 100;
-  text-align: center;
+  text-align: left;
   padding: 10px 0;
   font-size: 1.2em;
   width: 95%;
   height: auto;
   position: relative;
   float: left;
+  margin-left: 10px;
+}
+
+.tip-agent:after {
+  content: '';
+  display: block;
+  background: #ddd;
+  height: 1px;
+  max-width: 230px;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 0px;
+  margin-top: 5px;
 }

@@ -24,7 +24,9 @@ tree-chart {
   height: 290px;
   font-size: 1em;
   overflow: visible;
-  background-color: whitesmoke;
+  background-color: white;
+  box-shadow: -10px 0px 20px -1px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -10px 0px 20px -1px rgba(0, 0, 0, 0.4);
   position: relative;
 }
 
@@ -37,7 +39,7 @@ tree-chart {
   height: 280px;
   float: right;
   padding-left: 0px;
-  background-color: whitesmoke;
+  background-color: white;
   left: -10px;
   text-align: left;
 }
@@ -78,7 +80,8 @@ tree-chart {
   height: 280px;
   position: absolute;
   left: -20px;
-  background-color: whitesmoke;
+  background-color: white;
+  border-right: none;
   padding: 5px;
 }
 

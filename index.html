@@ -38,7 +38,12 @@
                 <timeline-chart data="timelineData" key="selectedKey" timeline-data-watcher="timelineIsCurrent" toggle-panel-view="togglePanelView()"></timeline-chart>
                 <div class="sr-only">An interactive chart showing nodes color coded by topic, varying in size to indicate the number of occurences a particular topic occurs within the records pertaining to this collection.</div>
               </div>
-              <toggle-bar toggle-panel-view="togglePanelView()" class="chart-position-toggle" tree-activated="treeActivated"><div class="toggle-ellipsis">&#8942;</div></toggle-bar>
+              <toggle-bar toggle-panel-view="togglePanelView()" class="chart-position-toggle" tree-activated="treeActivated">
+                <div class="toggle-ellipsis">
+                  <span class="left-arrow">&lsaquo;</span>
+                  <span class="right-arrow display-none">&rsaquo;</span>
+                </div>
+              </toggle-bar>
             </div>
             <div class="left-pane">
               <tree-chart tree-selection="selectedTreeTopic" reset-bubble-chart-from-tree="resetBubbleChartFromTree()" toggle-panel-view="togglePanelView()" data="treeData"></tree-chart>
