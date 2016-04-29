@@ -9,8 +9,9 @@ Rdflib parses the RDF/XML data using an angular service, and returns it to three
 ---
 Contributors
 ====
-[![Claire Woods](https://avatars.githubusercontent.com/adynata?s=50)<br /><sub>Claire Woods</sub>](https://github.com/adynata/)<br />[📖](https://github.com/UCI-Libraries/PLODAB/commits?author=adynata)
-[💻](https://github.com/UCI-Libraries/PLODAB/commits?author=clwoods) 🎨 👀
+[![Claire Woods](https://avatars.githubusercontent.com/adynata?s=50) <sub>** Claire Woods ** </sub>](https://github.com/adynata/)
+<br/>
+[💻](https://github.com/UCI-Libraries/PLODAB/commits?author=adynata) 📖 🎨 👀
 
 License
 ====
