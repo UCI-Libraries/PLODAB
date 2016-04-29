@@ -7,7 +7,7 @@ body {
   width: auto;
   margin-left: auto;
   margin-right: auto;
-  background-color: #555759;
+  background-color: whitesmoke;
 }
 
 .title {
@@ -44,7 +44,7 @@ body {
   position: relative;
   width: 100%;
   height: 687px;
-  background-color: #555759;
+  background-color: whitesmoke;
   overflow: hidden;
   border-bottom: 2px solid #f36f23;
 }
@@ -56,9 +56,7 @@ body {
   left: -96%;
   overflow: hidden;
   background-color: whitesmoke;
-  background-color: #555759;
   transition: all 500ms ease-in-out;
-  /*margin-left: 200px;*/
 }
 
 .plodab-tool.shift {
@@ -88,17 +86,38 @@ body {
   width: 3.9%;
   position: relative;
   float: left;
-  background-color: #00768a;
-  opacity: 0.8;
+  background-color: transparent;
+  opacity: 0.7;
   height: 100%;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: visible;
 }
 
 .chart-position-toggle:hover {
-  opacity: 1;
+  opacity: 0.9;
+}
+
+.chart-position-toggle:before {
+    content:"";
+    background: #555759;
+    position: absolute;
+    bottom: 35%;
+    left: -1%;
+    height: 30%;
+    width: 1.5px;
+}
+
+.chart-position-toggle:after {
+    content:"";
+    background: #555759;
+    position: absolute;
+    bottom: 35%;
+    left: 100%;
+    height: 30%;
+    width: 1.5px;
 }
 
 .toggle-ellipsis {
@@ -107,11 +126,11 @@ body {
   height: auto;
   width: 45%;
   opacity: 0.5;
-  color: #00768a;
+  color: transparent;
 }
 
 .white {
-  color: white;
+  color:  #00768a;
 }
 
 .left-pane {
@@ -133,4 +152,8 @@ body {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+
+.display-none {
+  display: none;
 }
