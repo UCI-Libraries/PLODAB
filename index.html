@@ -22,7 +22,7 @@
     <link rel="icon" type="image/png" href="lib/images/favicons.png">
   </head>
   <body>
-    <div ng-app="plodab" id="container" class="container">
+    <div ng-app="plodab" id="container" class="container" ng-cloak>
       <div class="title"><img alt="University of California, Irvine" src="lib/images/full-wordmark-1.png"/><h1>Pilot Project for Linked Open Data for Artists' Books</h1></div>
       <div ng-controller="chartctrl" id="main" role="main">
         <div class="focus">
@@ -31,7 +31,7 @@
               <div class="right-pane-chart">
                 <div class="button-row">
                   <div class="button-group">
-                    <a ng-click="updateSubjects($event)" ng-class="{active: b.selected}" class="button" ng-repeat="b in topicButtons" style="color:{{b.color}};" name="{{b.name}}" ng-cloak>{{b.display}}</a>
+                    <a ng-click="updateSubjects($event)" ng-class="{active: b.selected}" class="button" ng-repeat="b in topicButtons" style="color:{{b.color}};" name="{{b.name}}">{{b.display}}</a>
                   </div>
                 </div>
                 <bubble-chart selected-nodes="selectedNodes" selected-topics="selectedTopics" ng-click="updateNodes($event)" bubble-data="bubbleChartData" passed-tree-data="selectedTreeTopic"></bubble-chart>
