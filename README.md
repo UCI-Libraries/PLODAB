@@ -7,6 +7,10 @@ The data visualization tool uses metadata in an RDF/XML format from the special 
 Rdflib parses the RDF/XML data using an angular service, and returns it to three interactive charts, encapsulated into custom directives. These three charts work together to give a hierarchically described tool for exploration of the subjects, materials, techniques, and places of publication within the metadata.
 
 ---
+Contact
+====
+[UCI Libraries' Digital Scholarship Services](libdss@uci.edu)
+
 Contributors
 ====
 ![Claire Woods](https://avatars.githubusercontent.com/adynata?s=100)<br>[Claire Woods](https://github.com/adynata/): [Code](https://github.com/UCI-Libraries/PLODAB/commits?author=adynata) & Design
