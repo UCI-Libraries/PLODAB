@@ -9,7 +9,7 @@ Rdflib parses the RDF/XML data using an angular service, and returns it to three
 ---
 Contact
 ====
-[UCI Libraries' Digital Scholarship Services](http://www.lib.uci.edu/dss)
+[UCI Libraries' Digital Scholarship Services](mailto:libdss@uci.edu)
 
 Contributors
 ====
