@@ -47,7 +47,7 @@ Contributors
 
 Project Publications & Presentations
 ====
-  * Smart, Laura. “[Making Metadata Linked Data: The PLODAB Experience](https://drive.google.com/drive/folders/0B6rFaowJl3qdQ2ZfdmdDYXlDZzA),” in "Manipulation, Multiplicity, and Metadata: Piloting Linked Open Data with Artists' Books.” Digital Initiatives Symposium, 24 April 2016, University of San Diego, San Diego, CA. Panel session
+  * Smart, Laura. “[Making Metadata Linked Data: The PLODAB Experience](https://drive.google.com/open?id=1EzT_lbZNWyLS1it6Zv8H5a1bANQkslxF02Zjdd0Mi1M),” in "Manipulation, Multiplicity, and Metadata: Piloting Linked Open Data with Artists' Books.” Digital Initiatives Symposium, 24 April 2016, University of San Diego, San Diego, CA. Panel session
 
 License
 ====
