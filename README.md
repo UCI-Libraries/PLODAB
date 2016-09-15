@@ -45,6 +45,10 @@ Contributors
 ====
 ![Claire Woods](https://avatars.githubusercontent.com/adynata?s=100)<br>[Claire Woods](https://github.com/adynata/): [Code](https://github.com/UCI-Libraries/PLODAB/commits?author=adynata) & Design
 
+Project Publications & Presentations
+====
+  * [Making metadata linked data](https://drive.google.com/drive/folders/0B6rFaowJl3qdQ2ZfdmdDYXlDZzA)
+
 License
 ====
 The MIT License (MIT)
