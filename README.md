@@ -45,10 +45,6 @@ Contributors
 ====
 ![Claire Woods](https://avatars.githubusercontent.com/adynata?s=100)<br>[Claire Woods](https://github.com/adynata/): [Code](https://github.com/UCI-Libraries/PLODAB/commits?author=adynata) & Design
 
-Project Publications & Presentations
-====
-  * Smart, Laura. “[Making Metadata Linked Data: The PLODAB Experience](https://drive.google.com/open?id=1EzT_lbZNWyLS1it6Zv8H5a1bANQkslxF02Zjdd0Mi1M),” in "Manipulation, Multiplicity, and Metadata: Piloting Linked Open Data with Artists' Books.” Digital Initiatives Symposium, 24 April 2016, University of San Diego, San Diego, CA. Panel session
-
 License
 ====
 The MIT License (MIT)
